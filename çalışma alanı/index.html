@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <title>yorum yap</title>
 </head>
@@ -11,11 +12,20 @@
     <div class="container ">
         <div class="row w-4 ">
             
-            <div class="col b ">
-                <h4 >yorum alanı</h4>
-                <span>bu alana yıldız eklenecek</span>
-                <input  type="email" class="w-100" title="email" >
-                <textarea class="w-100 mt-3 p-1" id="" cols="30" rows="2"></textarea>
+            <div class="col  yorum p-0">
+                <h4 class="border-bottom ">yorum alanı</h4>
+                <div class="p_star">
+                <span class="d-inline-block mt-2">
+                    <i class="fa-regular fa-star" style="color: #f0dc00;"></i>
+                    <i class="fa-regular fa-star" style="color: #f0dc00;"></i>
+                    <i class="fa-regular fa-star" style="color: #f0dc00;"></i>
+                    <i class="fa-regular fa-star" style="color: #f0dc00;"></i>
+                    <i class="fa-regular fa-star" style="color: #f0dc00;"></i>
+                </span>
+                <button type="button" class="btn btn-danger">Yorum Yap</button>                   
+                </div>
+                <input  type="email" class="w-100 email mt-1" title="email" placeholder="Emailinizi Giriniz...">
+                <textarea class="w-100 mt-3 txt" id="" cols="30" rows="1" placeholder="Yorumunuz..."></textarea>
             </div>
         </div>
     </div>    
