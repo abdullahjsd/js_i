@@ -1,0 +1,70 @@
+body{
+    min-height: 100vh;
+    background-color: #e7f2fd;
+}
+.container{
+    position: relative;
+    max-width: 1350px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+
+}
+.filter_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+button{
+    padding:7px 20px;
+    font-size: 18px;
+    background-color: #ffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+}
+button.active{
+    background-color: #4070f4;
+    color: #ffff;
+}
+.filterable_cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 25px;
+}
+.card{
+    flex-basis: 250px;
+    flex-grow:1 ;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0,0.5);
+}
+.card.hide{
+    display: none;
+}
+.card img{
+
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+
+}
+.card_body{
+    padding: 10px;
+}
+.card_title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+}
+.card_text{
+    font-size: 17px;
+    font-weight: 500;
+    color: #333;
+}
