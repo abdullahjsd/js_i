@@ -1,0 +1,34 @@
+body{
+     background:linear-gradient(#11ec69,#093a6b) ;
+     color:#f8f6ef;
+      
+}
+h1{ 
+    font-style:bold;
+    font-family: 'Open Sans', sans-serif;
+    color:#000;
+}
+p{
+    color: #faedcd;
+}
+/***********************************************/
+/********** İNDEX HTML**************/
+.playGround{
+    height: 90vh;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.parent_ground{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #474d49;
+}
+.box{
+    width: 9%;
+    height: 100px;
+    background-color: red;
+ 
+}
+
