@@ -40,20 +40,25 @@ p{
 } 
 #parent_ground{
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(9, 1fr);
     grid-gap: 10px;
     height: 100%;
-    background-color: red;
+    /* background-color: red; */
     z-index: 100;
     padding: 10px;
     border-radius: 15px;
  }
  .box{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor:grabbing;
  }
  
-.img {
+.sekil {
+    border-radius: 50%;
     background-size: cover;
     overflow: hidden;
     width: 100%;
 }
+ 
