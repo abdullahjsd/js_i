@@ -5,10 +5,9 @@ let boxes        =document.querySelectorAll(".box")
  
 
 let kare = 63;
-let bomba=5;
+let bbomba=5;
  
-
-let rst =Math.floor(Math.random() * kare);
+ 
 for(i=0;i<kare;i++){
      let boxes = document.createElement("div");
           boxes.classList.add("box")
@@ -20,11 +19,14 @@ for(i=0;i<kare;i++){
           balonimg.src=("img/balon.jpg")
           boxes.appendChild(balonimg);
  /******************************* */
+
+
           boxes.addEventListener("click",function(){
-               for(i=0;i<kare;i++){
-                    console.log(rst);
-               }
-                    
+               let rst =Math.floor(Math.random() * kare);
+            
+
+ 
+                  
                          
                
                
@@ -35,6 +37,7 @@ for(i=0;i<kare;i++){
                //           console.log("patlamaı");
                //      }
           })
+ 
    
 }
 
