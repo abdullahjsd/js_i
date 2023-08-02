@@ -1,0 +1,32 @@
+ .calculator{
+    margin: auto;
+    margin-top: 4rem;
+    width: 440px;
+    padding: 2rem;
+    background-color: rgb(51, 51, 51);
+    border-radius: 20px;
+
+}
+ .parent{
+    
+}
+.screen{
+    height: 65px;
+    background-color:rgb(210, 220, 187) ;
+    margin-bottom: 2rem;
+}
+.buttons{
+    display: grid;
+    grid-template-columns:22% 22% 22% 22%;
+    text-align: center;
+    margin: auto;
+    gap: 15px;
+    font-size: 2rem;
+    font-weight:900;
+  
+}
+button{
+    border: none;
+    border-radius: 25px;
+}
+ 
