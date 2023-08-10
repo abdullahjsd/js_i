@@ -5,17 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container mybg text-white">
-        <div class="row">
-            <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?cs=srgb&dl=pexels-lisa-fotios-1092644.jpg&fm=jpg" alt="">
-        </div>
+
         <div class="row justify-content-center align-items-center vh-100 text-center">
             <div class="col-10">
                 <h2>Zırt Bankası </h2>
-                <input class="w-100 my-3 p-1" type="text" placeholder="Şifrenizi Giriniz">
+                <div class="mybtn w-100 my-3 p-1 " placeholder="Şifrenizi Giriniz">
+                    <div class="parent bg-danger p-0">
+                        <input class="w-75 my-3 p-1" type="password" placeholder="Şifrenizi Giriniz">
+                        <i class="fa-solid fa-eye" style="color: #d2cbcb;"></i>
+                    </div>
+                </div>
+                
                 <button class="w-100 p-1 bg-danger">Giriş Yap</button>
             </div>
         </div>
