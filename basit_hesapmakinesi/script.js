@@ -19,7 +19,8 @@ buttons.addEventListener("click",function(e){
         return
     }
     if(element.classList.contains("decimal")){
-        console.log("decimal");
+        inputDecimal(element.value)
+        updateDecimal();
         return
     }
     if(element.classList.contains("clear")){
@@ -32,6 +33,8 @@ buttons.addEventListener("click",function(e){
 })
 
 function inputNumber(num){
-    inputValue=num
+    inputValue = inputValue === "0" ? num: inputValue + num;
 }
 
+
+ 
