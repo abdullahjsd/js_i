@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava durumu APİ</title>
+    <!-- font-ewsome cdn start -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootrap cdn start -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="card">
+        <div class="search">
+            <input type="text" class="myInput"placeholder="Enter city name"  spellcheck="false" >
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="error">
+            <p>Yanlış bir değer girdiniz...</p>
+        </div>
+        <div class="weather">
+            <img src="#" class="weather-icon" alt="">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <i class="fa-solid fa-temperature-half"></i>
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidiyt</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="bi bi-wind"></i>
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind speed</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
