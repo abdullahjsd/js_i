@@ -71,9 +71,19 @@ body{
 }
 ul li {
     text-decoration: line-through;
+    position: relative;
+    margin-top: 1rem;
 }
 
+.clearSpan{
+    position: absolute;
+    right: 0;
+    color: #555;
+    text-align: center;
+    padding: 2px;
+    cursor: pointer;
 
+}
 
 
 

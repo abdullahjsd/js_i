@@ -7,13 +7,15 @@ function addTask(){
         alert("You must write sometthing !")
     }else {
         let li = document.createElement("li");
-        let myicon = document.createElement("i")
-
         li.innerHTML = inputBox.value;
         listContainer.appendChild(li);
-
-        console.log(myicon)
+        let span = document.createElement("span");
+        span.className="clearSpan"
+        span.innerHTML="×"
+        li.appendChild(span)
+       
     }
+    inputBox.value=""
 }
 
 
