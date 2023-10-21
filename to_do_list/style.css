@@ -83,9 +83,15 @@ ul li {
     right: 0;
     color: #555;
     text-align: center;
+    margin-top: 2px;
     padding: 2px;
     cursor: pointer;
-
+    width: 35px;
+    height: 28px;
+    border-radius: 15px;
+}
+.clearSpan:hover{
+    background-color: #edeef0;
 }
 
 
@@ -95,4 +101,3 @@ ul li {
         add girilen değer arttığında yukarıya doğru değil aşağıy doğru hareket edecek bunuda max height ile ayar layacağım  */
     }
   }
- 
