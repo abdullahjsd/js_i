@@ -12,14 +12,17 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
+    margin-top: 3rem;
+    border: 1px;
+
+
 }
 .todo-app{
     width: 100%;
     max-width: 450px;
     background-color: #fff;
     padding: 40px 30px 70px ;
+    border-radius: 50px 2px;
 
 }
 .todo-app h2{
@@ -70,7 +73,7 @@ body{
 
 }
 ul li {
-    text-decoration: line-through;
+    /* text-decoration: line-through; */
     position: relative;
     margin-top: 1rem;
 }
@@ -86,5 +89,10 @@ ul li {
 }
 
 
-
+@media screen and (max-height: 600px) {
+    body {
+       /* todo app
+        add girilen değer arttığında yukarıya doğru değil aşağıy doğru hareket edecek bunuda max height ile ayar layacağım  */
+    }
+  }
  
