@@ -1,3 +1,61 @@
 body{
     background: linear-gradient(135deg,#cf9aff,#95c0ff);
+    height: 100vh;
+}
+.mycontainer{
+    padding: 4%;
+    padding-left: 10%;
+    color:#fff;
+}
+.mycontainer h1{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.mycontainer h1 i{
+    width: 60px;
+}
+.mycontainer button i{
+    width: 25px;
+    margin-right: 8px;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
+
+}
+.mycontainer button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#9418fd, #571094) ;
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius:40px;
+    padding: 15px 25px;
+    margin: 30px 0 ;
+    cursor: pointer;
+}
+.input-text{
+    width: 100%;
+    max-width: 500px;
+    min-width:250px ;
+    background-color: #fff;
+    color:#333;
+    padding: 20px;
+    margin: 20px 0 ;
+    border-radius:5px ;
+    display: block;
+}
+/* .delete{
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 8px;
+    right: 15px;
+} */
+.input-box{
+    /* border: none;
+    outline: none; */
+ 
 }
