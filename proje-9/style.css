@@ -4,38 +4,103 @@
     box-sizing: border-box;
 }
 body{
-   background-color: #f7edff; 
+    background-color: #f4c531;
 }
-.buttons{
-    margin: 50px;
-}
-.buttons button{
-    background-color: #333;
-    color: #fff;
-    border: 0;
-    outline: 0;
-    width: 120px;
-    height: 40px;
-    margin: 5px;
-    cursor: pointer;
-}
-#toastBox{
+.container{
+    background-color: #ffffff;
+    width: 90vw;
+    max-width: 34rem;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    transform: translate(-50% ,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 3rem;
+    border-radius: .8rem;
+    box-shadow: 0 1.2rem 2.4rem rgb(111, 85, 0, 0.25);
+}
+#optoins-container{
+    text-align: center;
+}
+#optoins-container div{
+    width: 100%;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
+    margin: 1.2rem 0 2.4rem 0;
+}
+#optoins-container button{
+    padding: .6rem 1.2rem;
+    border: 3px solid black;
+    color: black;
+    border-radius: .3rem;
+    text-transform: capitalize;
+}
+#optoins-container button:disabled{
+    border: 3px solid #808080;
+    background-color: #efefef;
+}
+#optoins-container button.active{
+    background-color: #f4c531;
+    border: 3px solid black;
+    color: black;
+    
+}
+.letter-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .6rem;
+
+}
+#letter-container button{
+    height: 2.4rem;
+    width: 2.4rem;
+    border: 1px solid black;
+    border-radius: .3rem;
+    background-color: #ffffff;
+}
+/* .new-game-popup{
+    background-color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    overflow: hidden;
-    padding: 20px;
+ 
 }
-.toast{
-  width: 400px;
-  height: 80px;
-  background-color: #fff;
-  font-weight: 500;
-  margin: 15px 0;
-  box-shadow:0 0 20px rgb(0, 0, 0,0.3) ;
-  display: flex;
-  align-items: center;  
+#new-game-button{
+    padding: 1rem;
+    font-size: 2em;
+    border-radius: 1rem;
+    background-color: #f4c531;
+    font-weight: bold;
+} */
+.hide{
+    /* display: none; */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
