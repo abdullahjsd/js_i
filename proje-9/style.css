@@ -37,11 +37,13 @@ body{
 #optoins-container button:disabled{
     border: 3px solid #808080;
     background-color: #efefef;
+    cursor: pointer;
 }
-#optoins-container button.active{
+#optoins-container button:active{
     background-color: #f4c531;
     border: 3px solid black;
     color: black;
+    cursor: pointer;
     
 }
 .letter-container{
@@ -59,7 +61,7 @@ body{
     border-radius: .3rem;
     background-color: #ffffff;
 }
-/* .new-game-popup{
+.new-game-popup{
     background-color: #ffffff;
     position: absolute;
     top: 0;
@@ -78,9 +80,9 @@ body{
     border-radius: 1rem;
     background-color: #f4c531;
     font-weight: bold;
-} */
+} 
 .hide{
-    /* display: none; */
+    display: none;
 }
 
 
